@@ -1,0 +1,17 @@
+{
+    "name": "php-mysql-table-demo",
+    "description": "A demo project to create MySQL tables using MySQLi and PDO in PHP.",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-mysqli": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
